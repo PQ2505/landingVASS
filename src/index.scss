@@ -10,14 +10,31 @@ html{
 position: relative;
 }
 
+.img-fluid{
+    height: 60vh;
+    width: 100%;
+    position: relative;
+}
+
+.navbar{
+    background-color: $colorBlack;
+    color: $colorWhite
+}
+
 .contac {
     position: absolute;
     bottom: 4rem;
-    font-size: 8rem;
-    color: #ffffffa3
+    font-size: 3rem;
+    color: #ffffffa3;
+    float: right;
 }
 
-@media screen and (min-width: 1440px) {
+.p-3{
+    background-color: $colorBlack;
+    color: $colorWhite
+}
+
+@media screen and (max-width: 1440px) {
     .contac {
         right: 1rem;
     }
