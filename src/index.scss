@@ -1,0 +1,24 @@
+$colorBlack:black;
+$colorWhite:white;
+$colorGray:gray;
+$colorRed:red;
+
+html{
+    font-size: 16px;
+}
+.principal{
+position: relative;
+}
+
+.contac {
+    position: absolute;
+    bottom: 4rem;
+    font-size: 8rem;
+    color: #ffffffa3
+}
+
+@media screen and (min-width: 1440px) {
+    .contac {
+        right: 1rem;
+    }
+}
