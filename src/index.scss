@@ -1,41 +1,63 @@
-$colorBlack:black;
-$colorWhite:white;
-$colorGray:gray;
-$colorRed:red;
+$colorBlack: black;
+$colorWhite: white;
+$colorGray: gray;
+$colorRed: red;
 
-html{
-    font-size: 16px;
-}
-.principal{
-position: relative;
+html {
+  font-size: 16px;
 }
 
-.img-fluid{
-    height: 60vh;
-    width: 100%;
-    position: relative;
+input {
+  background: none !important;
+  border: none !important;
+  border-bottom: 1px solid $colorWhite !important;
 }
 
-.navbar{
-    background-color: $colorBlack;
-    color: $colorWhite
+textarea {
+    background: none !important;
+}
+
+.principal {
+  position: relative;
+}
+
+.img-fluid {
+  height: 60vh;
+  width: 100%;
+  position: relative;
+}
+
+.navbar {
+  background-color: $colorBlack;
+  color: $colorWhite;
 }
 
 .contac {
-    position: absolute;
-    bottom: 4rem;
-    font-size: 3rem;
-    color: #ffffffa3;
-    float: right;
+  position: absolute;
+  top: 19rem;
+  font-size: 3rem;
+  color: #ffffffa3;
+  float: right;
 }
 
-.p-3{
-    background-color: $colorBlack;
-    color: $colorWhite
+.p-3 {
+  color: $colorWhite;
+}
+.containeForm {
+  background-color: $colorBlack;
+}
+
+.buttonForm{
+    padding: 2rem;
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    background: none;
+    color: white;
 }
 
 @media screen and (max-width: 1440px) {
-    .contac {
-        right: 1rem;
-    }
+  .contac {
+    right: 4rem;
+  }
 }
