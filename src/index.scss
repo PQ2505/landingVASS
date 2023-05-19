@@ -14,7 +14,7 @@ input {
 }
 
 textarea {
-    background: none !important;
+  background: none !important;
 }
 
 .principal {
@@ -30,6 +30,7 @@ textarea {
 .navbar {
   background-color: $colorBlack;
   color: $colorWhite;
+  box-sizing: border-box;
 }
 
 .contac {
@@ -40,6 +41,25 @@ textarea {
   float: right;
 }
 
+.contInfo {
+  padding-top: 8.5vh;
+  padding-bottom: 8.5vh;
+}
+
+.text-sm-start {
+  padding: 20px;
+  font-size: 16px;
+  margin-bottom: 19px;
+  max-width: 210px;
+}
+
+.text-lg-start {
+  left: 24px;
+  position: relative;
+  padding-left: 30px;
+  border-left: 1px solid #000;
+}
+
 .p-3 {
   color: $colorWhite;
 }
@@ -47,17 +67,66 @@ textarea {
   background-color: $colorBlack;
 }
 
-.buttonForm{
-    padding: 2rem;
-    height: 7rem;
-    width: 7rem;
-    border-radius: 50%;
-    background: none;
-    color: white;
+.buttonForm {
+  padding: 2rem;
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  background: none;
+  color: white;
+}
+
+.nav-link {
+  color: $colorWhite;
+}
+
+.cms {
+  padding-left: 7rem;
+}
+.logoF{
+  display: none;
+}
+.img-fluid-certi {
+  display: none;
 }
 
 @media screen and (max-width: 1440px) {
   .contac {
-    right: 4rem;
+    right: 5rem;
+    font-size: 7vh;
+  }
+
+  .text-lg-start {
+    flex: 0 0 50%;
+    max-width: 72%;
+  }
+  .img-fluid-certi {
+    max-width: 57%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .contInfo {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .logoF{
+    display: block;
+  }
+  .img-fluid-certi {
+    display: block;
+  }
+}
+@media screen and (min-width: 768px) {
+  .logoF{
+    display: block;
+  }
+  .img-fluid-certi {
+    display: block;
+  }
+  .img-fluid-certi {
+    max-width: 57%;
+    height: auto;
   }
 }

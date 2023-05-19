@@ -1,6 +1,6 @@
 export function Info() {
   return (
-    <div>
+    <div className="contInfo">
      <h2 className="text-sm-start">
         EMPECEMOS A HACERLO SENCILLO
       </h2>
