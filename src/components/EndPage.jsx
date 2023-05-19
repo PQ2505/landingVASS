@@ -2,106 +2,118 @@ import certificados from "../assets/certificados.png";
 
 export function EndPage() {
   return (
-    <div class="p-5 bg-dark text-bg-dark navbar-dark">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col">
-            <ul>
-              <a href="#" class="nav-link active">
-                <h5>
-                  <ul className="cms">Complex made simple</ul>
+    <>
+      <div className="p-5 bg-dark text-bg-dark navbar-dark">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col">
+              <ul>
+                <a href="#" className="nav-link active">
+                  <h5>
+                    <ul className="cms">Complex made simple</ul>
                   </h5>
-              </a>
-            </ul>
+                </a>
+              </ul>
+            </div>
+            <div className="col">
+              <ul>
+                <a href="#" className="nav-link active">
+                  <h6>Sitemap VASS</h6>
+                </a>
+                <a href="#" className="nav-link active">
+                  Home{" "}
+                </a>
+                <a href="#" className="nav-link active">
+                  Casos éxito
+                </a>
+                <a href="#" className="nav-link active">
+                  Somos VASS{" "}
+                </a>
+                <a href="#" className="nav-link active">
+                  Impactos
+                </a>
+                <a href="#" className="nav-link active">
+                  Método{" "}
+                </a>
+                <a href="#" className="nav-link active">
+                  Tecnologias
+                </a>
+              </ul>
+            </div>
+            <div className="col">
+              <ul>
+                <a href="#" className="nav-link active">
+                  <h6>Sitemap Talento</h6>
+                </a>
+                <a href="#" className="nav-link active">
+                  Talento{" "}
+                </a>
+                <a href="#" className="nav-link active">
+                  #LifeVASS
+                </a>
+                <a href="#" className="nav-link active">
+                  Beneficios{" "}
+                </a>
+                <a href="#" className="nav-link active">
+                  Planes para ti
+                </a>
+                <a href="#" className="nav-link active">
+                  Proyectos{" "}
+                </a>
+                <a href="#" className="nav-link active">
+                  Smartworking
+                </a>
+              </ul>
+            </div>
+            <div className="col">
+              <ul>
+                <a href="#" className="nav-link active">
+                  <h6>Empresas</h6>
+                </a>
+                <a href="#" className="nav-link active">
+                  VASS{" "}
+                </a>
+                <a href="#" className="nav-link active">
+                  Nateevo
+                </a>
+                <a href="#" className="nav-link active">
+                  Serbatic{" "}
+                </a>
+                <a href="#" className="nav-link active">
+                  vdSHOP
+                </a>
+              </ul>
+            </div>
           </div>
-          <div class="col">
-            <ul>
-              <a href="#" class="nav-link active">
-                <h6>Sitemap VASS</h6>
+          <div className="row">
+            <div className="col-9">
+              <a className="navbar-brand" href="#">
+                <img className="logoF" src="public/logo.png" alt="" />
               </a>
-              <a href="#" class="nav-link active">
-                Home{" "}
+            </div>
+            <div className="col-3">
+              <a className="navbar-brand" href="#">
+                <img
+                  className="img-fluid-certi"
+                  src="src/assets/certificados.png"
+                  alt=""
+                />
               </a>
-              <a href="#" class="nav-link active">
-                Casos éxito
-              </a>
-              <a href="#" class="nav-link active">
-                Somos VASS{" "}
-              </a>
-              <a href="#" class="nav-link active">
-                Impactos
-              </a>
-              <a href="#" class="nav-link active">
-                Método{" "}
-              </a>
-              <a href="#" class="nav-link active">
-                Tecnologias
-              </a>
-            </ul>
-          </div>
-          <div class="col">
-            <ul>
-              <a href="#" class="nav-link active">
-                <h6>Sitemap Talento</h6>
-              </a>
-              <a href="#" class="nav-link active">
-                Talento{" "}
-              </a>
-              <a href="#" class="nav-link active">
-                #LifeVASS
-              </a>
-              <a href="#" class="nav-link active">
-                Beneficios{" "}
-              </a>
-              <a href="#" class="nav-link active">
-                Planes para ti
-              </a>
-              <a href="#" class="nav-link active">
-                Proyectos{" "}
-              </a>
-              <a href="#" class="nav-link active">
-                Smartworking
-              </a>
-            </ul>
-          </div>
-          <div class="col">
-            <ul>
-              <a href="#" class="nav-link active">
-                <h6>Empresas</h6>
-              </a>
-              <a href="#" class="nav-link active">
-                VASS{" "}
-              </a>
-              <a href="#" class="nav-link active">
-                Nateevo
-              </a>
-              <a href="#" class="nav-link active">
-                Serbatic{" "}
-              </a>
-              <a href="#" class="nav-link active">
-                vdSHOP
-              </a>
-            </ul>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-9">
-            <a class="navbar-brand" href="#">
-              <img class="logoF" src="public/logo.png" alt="" />
-            </a>
-          </div>
-          <div class="col-3">
-            <a class="navbar-brand" href="#">
-              <img
-                class="img-fluid-certi"
-                src="src/assets/certificados.png"
-                alt=""
-              />
-            </a>
-          </div>
+      </div>
+      <section className="secondFooter">
+        <div>
+          <span className="copyR">Copyright © 2023 Todos los derechos reservados</span>
         </div>
-        <div class="border-top text-center">
-          <span>Copyright © 2023 Todos los derechos reservados</span>
+        <div class="text">
+          <ul className="list">
+          <li className="list-1">Memoria Ambiental</li>
+          <li className="list-2">Política de cookies</li>
+          <li className="list-3">Política de privacidad</li>
+          <li className="list-4">Política de calidad y medio ambiente</li>
+          </ul>
         </div>
         <div class="row text-center justify-content-end">
           <a class="nav-link active col" href="#">
@@ -153,7 +165,7 @@ export function EndPage() {
             </svg>
           </a>
         </div>
-      </div>
-    </div>
+      </section>
+    </>
   );
 }

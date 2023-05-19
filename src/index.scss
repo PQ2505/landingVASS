@@ -65,6 +65,7 @@ textarea {
 }
 .containeForm {
   background-color: $colorBlack;
+  padding: 1rem;
 }
 
 .buttonForm {
@@ -83,11 +84,36 @@ textarea {
 .cms {
   padding-left: 7rem;
 }
-.logoF{
+.logoF {
   display: none;
 }
 .img-fluid-certi {
   display: none;
+}
+.bg-dark {
+  border-bottom: 3px solid white !important;
+}
+
+.secondFooter {
+  background-color: #212529;
+  color: $colorWhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.list-1,
+.list-2,
+.list-3,
+.list-4 {
+  list-style: none;
+  font-size: 2vh;
+}
+.copyR {
+  padding: 32px;
+  font-size: 2vh;
 }
 
 @media screen and (max-width: 1440px) {
@@ -111,7 +137,7 @@ textarea {
     display: flex;
     flex-wrap: wrap;
   }
-  .logoF{
+  .logoF {
     display: block;
   }
   .img-fluid-certi {
@@ -119,7 +145,7 @@ textarea {
   }
 }
 @media screen and (min-width: 768px) {
-  .logoF{
+  .logoF {
     display: block;
   }
   .img-fluid-certi {
